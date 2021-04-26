@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491E764A263127DB00C1AFBA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491E7649263127DB00C1AFBA /* Task.swift */; };
 		496555B4262E96F800CE6074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496555B3262E96F800CE6074 /* AppDelegate.swift */; };
 		496555B6262E96F800CE6074 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496555B5262E96F800CE6074 /* SceneDelegate.swift */; };
 		496555B8262E96F800CE6074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496555B7262E96F800CE6074 /* ViewController.swift */; };
@@ -14,11 +15,15 @@
 		496555BD262E96F900CE6074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496555BC262E96F900CE6074 /* Assets.xcassets */; };
 		496555C0262E96F900CE6074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496555BE262E96F900CE6074 /* LaunchScreen.storyboard */; };
 		496555CA262EA07600CE6074 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496555C9262EA07600CE6074 /* InputViewController.swift */; };
+		496A2F2026369D9B002675C7 /* shopping_shufu.png_woman.png in Resources */ = {isa = PBXBuildFile; fileRef = 496A2F1F26369D9B002675C7 /* shopping_shufu.png_woman.png */; };
+		496A2F2326369DA5002675C7 /* pyoko_computer.png in Resources */ = {isa = PBXBuildFile; fileRef = 496A2F2226369DA5002675C7 /* pyoko_computer.png */; };
+		496A2F2726369F2C002675C7 /* study_animal_koala.png in Resources */ = {isa = PBXBuildFile; fileRef = 496A2F2626369F2C002675C7 /* study_animal_koala.png */; };
 		77A6E1CB83713254C9AB3315 /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70156C7151B6AA4AF109BB22 /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11CF99C688138887ADCDCDA1 /* Pods-taskapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.debug.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.debug.xcconfig"; sourceTree = "<group>"; };
+		491E7649263127DB00C1AFBA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = SOURCE_ROOT; };
 		496555B0262E96F800CE6074 /* taskapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496555B3262E96F800CE6074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		496555B5262E96F800CE6074 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +33,9 @@
 		496555BF262E96F900CE6074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		496555C1262E96F900CE6074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496555C9262EA07600CE6074 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		496A2F1F26369D9B002675C7 /* shopping_shufu.png_woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping_shufu.png_woman.png; sourceTree = "<group>"; };
+		496A2F2226369DA5002675C7 /* pyoko_computer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pyoko_computer.png; sourceTree = "<group>"; };
+		496A2F2626369F2C002675C7 /* study_animal_koala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = study_animal_koala.png; sourceTree = "<group>"; };
 		5FC3C07728544B329614BDBF /* Pods-taskapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.release.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.release.xcconfig"; sourceTree = "<group>"; };
 		70156C7151B6AA4AF109BB22 /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,11 +73,15 @@
 		496555B2262E96F800CE6074 /* taskapp */ = {
 			isa = PBXGroup;
 			children = (
+				491E7649263127DB00C1AFBA /* Task.swift */,
 				496555B3262E96F800CE6074 /* AppDelegate.swift */,
 				496555B5262E96F800CE6074 /* SceneDelegate.swift */,
 				496555B7262E96F800CE6074 /* ViewController.swift */,
 				496555C9262EA07600CE6074 /* InputViewController.swift */,
 				496555B9262E96F800CE6074 /* Main.storyboard */,
+				496A2F1F26369D9B002675C7 /* shopping_shufu.png_woman.png */,
+				496A2F2226369DA5002675C7 /* pyoko_computer.png */,
+				496A2F2626369F2C002675C7 /* study_animal_koala.png */,
 				496555BC262E96F900CE6074 /* Assets.xcassets */,
 				496555BE262E96F900CE6074 /* LaunchScreen.storyboard */,
 				496555C1262E96F900CE6074 /* Info.plist */,
@@ -83,7 +95,6 @@
 				11CF99C688138887ADCDCDA1 /* Pods-taskapp.debug.xcconfig */,
 				5FC3C07728544B329614BDBF /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				496555C0262E96F900CE6074 /* LaunchScreen.storyboard in Resources */,
+				496A2F2326369DA5002675C7 /* pyoko_computer.png in Resources */,
+				496A2F2026369D9B002675C7 /* shopping_shufu.png_woman.png in Resources */,
 				496555BD262E96F900CE6074 /* Assets.xcassets in Resources */,
+				496A2F2726369F2C002675C7 /* study_animal_koala.png in Resources */,
 				496555BB262E96F800CE6074 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +225,7 @@
 			files = (
 				496555B8262E96F800CE6074 /* ViewController.swift in Sources */,
 				496555B4262E96F800CE6074 /* AppDelegate.swift in Sources */,
+				491E764A263127DB00C1AFBA /* Task.swift in Sources */,
 				496555B6262E96F800CE6074 /* SceneDelegate.swift in Sources */,
 				496555CA262EA07600CE6074 /* InputViewController.swift in Sources */,
 			);
